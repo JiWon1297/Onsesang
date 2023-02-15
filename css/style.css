@@ -711,7 +711,7 @@ a {
     padding: 1.7vw 0;
 }
 
-#section2 .text .se2_p {font-size: 16px;}
+#section2 .text .se2_p,#section2 .text .se2_pm {font-size: 16px;}
 
 #section2 .text .se2_p,
 #section2 .text .se2_pm {
