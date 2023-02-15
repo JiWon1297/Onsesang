@@ -268,10 +268,11 @@ padding: 100px 0;}
 
 /*<!--section2 text-------------------------------->*/
 
-.se2_text {width: 1320px; overflow: hidden; margin:0 auto;display: flex; flex-wrap: wrap; background-image: url(../images/sub1/color.png); background-repeat: no-repeat; padding-top: 50px;}
+.se2_text {width: 1320px; overflow: hidden; margin:0 auto;display: flex; flex-wrap: wrap; background-image: url(../images/sub1/color.png); background-repeat: no-repeat; padding-top: 50px; height: 400px;}
 
 .se2_text .left {width: 30%; height: 200px; box-sizing: border-box; padding: 0 0 0 120px; }
 .se2_text .right {width: 70%; font-size: 18px; letter-spacing: -0.5px; line-height: 28px;}
+
 
 
 
