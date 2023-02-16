@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400">
+  
+  <title>ONSESANG</title>
+
+  <!------------slide link--------->
+  <link rel="stylesheet" type="text/css" href="css/sub1/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/sub1/slick-theme.css">
+
+  <!------------favicon--------->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+
+  <!------------css--------->
+  <link rel="stylesheet" href="css/style02.css">
+
+  <!------------wow animation--------->
+  <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
+  <script src="https://wowjs.uk/dist/wow.min.js"></script>
+  <script src="js/wow_script.js"></script>
+
+  <!------------menu bt--------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/motion.js"></script>
+
+  <!--main slide-------------->
+  <link rel="stylesheet" href="css/sub2/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <!--header----------------------------------------->
+    <div id="header">
+      <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+      <h1 class="logo_mo"><a href="index.html"><img src="images/logo_mo.png" alt="logo"></a></h1>
+      <ul class="pc_gnb">
+          <li><a href="sub1.html">About</a></li>
+          <li><a href="sub2.html">Shop</a></li>
+          <li><a href="sub3.html">Life</a></li>
+          <li><a href="sub4.html">Lounge</a></li>
+          <li>
+              <ul class="log_cart">
+                  <li><a href="javascript:return false;"><img src="images/icon2.png" alt="cart"></a></li>
+                  <li><a href="javascript:return false;"><img src="images/icon1.png" alt="login"></a></li>
+              </ul>
+          </li>
+      </ul>
+      <!--mo_menu----------------------->
+      <div class="menu_btn"><a href="javascript:return false;">
+              <img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgNmgtMjR2LTRoMjR2NHptMCA0aC0yNHY0aDI0di00em0wIDhoLTI0djRoMjR2LTR6Ii8+PC9zdmc+">
+          </a>
+      </div>
+  </div>
+  <div class="menu_bg"></div>
+  <div class="sidebar_menu">
+      <div class="close_btn"><a href="javascript:return false;">
+              <img src="images/mo_menu_close.png">
+          </a>
+      </div>
+      <ul class="menu_wrap">
+          <li><a href="sub1.html">About</a></li>
+          <li><a href="sub2.html">Shop</a></li>
+          <li><a href="sub3.html">Life</a></li>
+          <li><a href="sub4.html">Lounge</a></li>
+      </ul>
+  </div>
+
+
+
+
+
+  <!--main-------------------------------------------------------------->
+
+  <div id="main">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide banner1"></div>
+        <div class="swiper-slide banner2"></div>
+        <div class="swiper-slide banner3"></div>
+        <div class="swiper-slide banner4"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        autoplay: {//자동재생
+          delay: 2800,//슬라이드 넘어가는 시간
+          disableOnInteraction: false,
+        },
+        loop: true,//반복
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+  </div>
+  </div>
+
+
+
+
+  <!--section1-------------------------->
+
+  <div id="section1" class="section">
+    <form action="">
+      <input type="text">
+      <a href="javascript:return false;"><img src="images/sub2/icon1.png" alt=""></a>
+    </form>
+    <ul class="shop_menu">
+      <li><a href="javascript:return false;">Best</a></li>
+      <li><a href="javascript:return false;">Made</a></li>
+      <li><a href="javascript:return false;">Dog</a>
+        <div class="sub_wrap">
+          <ul class="sub_shop">
+            <li><a href="javascript:return false;">All</a></li>
+            <li><a href="javascript:return false;">EAT</a></li>
+            <li><a href="javascript:return false;">PALY</a></li>
+            <li><a href="javascript:return false;">CARE</a></li>
+            <li><a href="javascript:return false;">LIVING</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="javascript:return false;">Cat</a>
+        <div class="sub_wrap">
+          <ul class="sub_shop">
+            <li><a href="javascript:return false;">All</a></li>
+            <li><a href="javascript:return false;">EAT</a></li>
+            <li><a href="javascript:return false;">PALY</a></li>
+            <li><a href="javascript:return false;">CARE</a></li>
+            <li><a href="javascript:return false;">LIVING</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <!--section2------------------------------------------->
+
+  <div id="section2" class="section">
+    <ul class="shop_list">
+      <!--list1번 start------------->
+      <li class="eat">
+          <p class="suj">SHOP.</p>
+          <p class="suj">EAT</p>
+        </li>
+      <!--list1번 end------------->
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop1.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+              <p class="best tag">Best</p>
+              <p class="made tag">Made</p>
+            </div>
+            <ul class="info">
+              <li class="name">온세상 리얼 프레쉬 스틱</li>
+              <li class="price"><b class="unmber">6,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop2.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+              <p class="best tag">Best</p>
+              <p class="made tag">Made</p>
+            </div>
+            <ul class="info">
+              <li class="name">온세상 리얼 프레쉬 캔</li>
+              <li class="price"><b class="unmber">6,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop3.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+              <p class="best tag">Best</p>
+              <p class="made tag">Made</p>
+            </div>
+            <ul class="info">
+              <li class="name">온세상 씨푸드 컬렉션</li>
+              <li class="price"><b class="unmber">8,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop4.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+
+            </div>
+            <ul class="info">
+              <li class="name">게더 프리에이커 치킨</li>
+              <li class="price"><b class="unmber">28,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop5.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+
+            </div>
+            <ul class="info">
+              <li class="name">게더 앤드리스 밸리</li>
+              <li class="price"><b class="unmber">28,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop6.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+            </div>
+            <ul class="info">
+              <li class="name">프로바이오밀 양</li>
+              <li class="price"><b class="unmber">18,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+      <li><a href="javascript:return false;">
+          <div class="img_box">
+            <img src="images/sub2/shop7.png" alt="">
+          </div>
+          <div class="text_box">
+            <div class="colortag">
+              <p class="best tag">Best</p>
+            </div>
+            <ul class="info">
+              <li class="name">오리젠 오리지날 11kg</li>
+              <li class="price"><b class="unmber">92,000</b> 원</li>
+            </ul>
+          </div>
+        </a></li>
+    </ul>
+
+  </div>
+
+
+  <div id="section3" class="section">
+    <div class="center">
+      <ul class="shop_list">
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop8.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+              </div>
+              <ul class="info">
+                <li class="name">피단 아일랜드 하우스</li>
+                <li class="price"><b class="unmber">125,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop9.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+
+              </div>
+              <ul class="info">
+                <li class="name">스몰스터프 다이닝 테이블</li>
+                <li class="price"><b class="unmber">142,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop10.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+              </div>
+              <ul class="info">
+                <li class="name">피단 삼각 해먹 M</li>
+                <li class="price"><b class="unmber">45,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+        <li class="care">
+            <p class="suj">CARE</p>
+            <p class="suj">.LIVING</p>
+          </li>
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop11.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+              </div>
+              <ul class="info">
+                <li class="name">펫킷 챠밍 스마트 정수기</li>
+                <li class="price"><b class="unmber">52,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop12.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+                <p class="best tag">Best</p>
+              </div>
+              <ul class="info">
+                <li class="name">릴라러브스잇 미네랄 치약</li>
+                <li class="price"><b class="unmber">28,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop13.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+                <p class="best tag">Best</p>
+              </div>
+              <ul class="info">
+                <li class="name">쁘띠엘르 2층 강아지 계단</li>
+                <li class="price"><b class="unmber">25,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+        <li><a href="javascript:return false;">
+            <div class="img_box">
+              <img src="images/sub2/shop14.png" alt="">
+            </div>
+            <div class="text_box">
+              <div class="colortag">
+              </div>
+              <ul class="info">
+                <li class="name">피단 몬스터 스크래쳐</li>
+                <li class="price"><b class="unmber">58,000</b> 원</li>
+              </ul>
+            </div>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <!--section3-------------------------->
+
+
+
+
+
+  <!--footer-->
+
+  <div id="footer">
+    <h1 class="ft_logo"><img src="images/ft_logo.png" alt="ft_logo"></h1>
+    <ul>
+
+      <li>
+        <p><b>Company</b> (주) 온세상 / ONSESANG <br>
+          <b>Ceo</b>
+          송지 원 <br>
+          <b>Adres</b> s 부산광역시 연제구 중앙대로 1001 온세상
+        </p>
+        <br>
+        <p class="copy1">Copyright © (주)온세상 All rights reserved.</p>
+      </li>
+      <li>
+        <p><b>Business no</b> 123-45-67890 <u>사업자정보확인</u><br>
+          <b>Mail order license</b> 2022-부산-1234<br>
+          <b>E-Mail</b> info@onsesang.co.kr<br>
+        <p class="copy2"><br>Copyright © (주)온세상 All rights reserved.</p>
+        </p>
+      </li>
+      <li>
+        <p><b>TEL 051-123-4567 <br>
+            AM10:00 - PM 17:00</b> <br>
+          토/일/공휴일 휴무
+        </p>
+
+      </li>
+    </ul>
+    <div class="image_box">
+      <img src="images/ft_logo2.png" alt="ft_logo2">
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
